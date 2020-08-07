@@ -1,10 +1,6 @@
-class store:
-	def __init__(self,city, state, country):
-		self.city = city
-		self.state = state
-		self.country = country
 
 
+# Car class that will hold attributes of the car when the object is made.
 class Car:
 	def __init__(self,car_weight, wheels, passengers, model_number):
 		self.weight = car_weight
@@ -43,7 +39,7 @@ class Car:
 		
 
 		
-
+# here is a brand class where I want to keep a list of of type car for each particular brand.
 class Brand:
 	number_of_cars = 0
 	def __init__(self, brand, origin, num_of_cars):
